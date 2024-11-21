@@ -1,8 +1,6 @@
-
 import scala.io.StdIn.readLine
 
 @main def helloInteractive() =
-    println("Please enter your name:")
-    val name = readLine()
-
-    println("Hello " + name + "!")
+    val x: Int = 1
+    val s: String = "a string"
+    val p: Person = Person("Richard")
